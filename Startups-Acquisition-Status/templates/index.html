@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Deployment</title>
+</head>
+<body>
+    <style>
+        body {
+            background-image: url('/Images/startupimage.png');
+            background-size: auto;
+            background-attachment: fixed;
+        }
+    </style>
+    <h1>Predicting Startup's Acqusition Status</h1>
+    <h2 align='center'>Enter startup information</h2>
+    <form action="/" method="POST">
+        <div>
+            <label for="founded_at">Year of foundation</label>
+            <center><input type="number" name="founded_at" id="1"></center>
+        </div>
+        <div>
+            <label for="location">Location</label>
+            <center><input type="text" name="location"></center>
+        </div>
+        <div>
+            <label for="funding rounds">Funding rounds</label>
+            <center><input type="number" name="funding rounds" id="2"></center>
+        </div>
+        <div>
+            <label for="funding total usd">Total funding in USD</label>
+            <center><input type="number" name="funding total usd" id="3"></center>
+        </div>
+        <div>
+            <label for="milestones">Milstones achieved</label>
+            <center><input type="number" name="milestones" id="4"></center>
+        </div>
+        <div>
+            <label for="relationships">Number of relations</label>
+            <center><input type="number" name="relationships" id="5"></center>
+        </div>
+        <div>
+            <label for="category code">Category Code</label>
+            <center><input type="text" name="category code"></center>
+        </div>
+        <div>
+            <label for="country code">Country Code</label>
+            <center><input type="text" name="country code"></center>
+        </div>
+        <center><input type="submit"></center>
+    </form>
+    
+</body>
+</html>
